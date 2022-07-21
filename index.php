@@ -251,36 +251,34 @@ if (isset($_POST['submit'])) {
         <div class="padding">
           <h3 class="col-md-7" style="  font-size: 15px;
   color: red; ">HOMES SERVED</h3>
-          <div1 class="text-dark col-md-12" style=" font-size: 30px;
+          <div1 class="text-dark col-md-12" style=" font-size: 10px;
   color: black;
-  margin-top: 30px;">Serving Over 50,000 Residential Users</div>
-          <p class="lines text text-dark text-slide3 col-md-11">We are happy to serve over 9,000 homes and 20,000
-            residents
-            with Internet, video entertainment, and phone services. This includes residents in the towns of Lenawee
+  margin-top: 30px;">Serving Over 50,000 Residential Users. We are happy to serve over 9,000 homes and 20,000
+            residents  with Internet, video entertainment, and phone services. This includes residents in the towns of Lenawee
             and Western Monroe counties, as well as remote residences and farms throughout the area. We currently
             offer up to 500 Mbps Internet download speeds in the towns and up to 50 Mbps Internet download speeds in
             remote areas. For video entertainment, we offer many options for every budget and viewing style.
-          </p>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="struct4">
-    <div class="container text-center">
-      <h3 class="style4" style="  font-size: 15px;
-  color: red; " data-aos="fade-up">LOCAL BUSINESSES SERVED</h3>
+
+  <div class="slide4" style="text-align: center;">
+    <div class="container" >
+      <h3 class="style4" style=" margin-top: 120px; font-size: 15px;
+  color: red;" data-aos="fade-up">LOCAL BUSINESSES SERVED</h3>
 
       <h1 class="text-dark" style="  font-size: 30px;
   color: black;
   margin-top: 30px;">Serving Over 1,300 Businesses</h1>
-
-      <p class="lines text-dark text text-struct4" data-aos="fade-up">We are proud to serve over 1,300 commercial entities in
+      <p class="lines text-dark text text-slide4" data-aos="fade-up">We are proud to serve over 1,300 commercial entities in
         the local area, including small-to-large businesses, hospital systems, K-12 school districts, higher
         education,
         non-profits, manufacturing and municipalities including:
       </p>
-      <div class="swiper mySwiper1 grayscale">
+      <div class="swiper" style="width: 100%;height: 100%; filter: grayscale(1);
+  opacity: 0.5;">
         <div class="swiper-wrapper">
           <div class="swiper-slide  imagineamea"><img src="Imagini/Promedica Logo.png"></div>
           <div class="swiper-slide imagineamea"><img src="Imagini/Promedica Logo.png"></div>
@@ -314,12 +312,13 @@ if (isset($_POST['submit'])) {
       </div>
     </div>
   </div>
-  <div class="struct5">
+  <div class="slide5">
     <div class="container">
       <h3 class="style-title5" style="  font-size: 15px;
-  color: red; " data-aos="fade-up">COMMUNITY PARTNERS</h3>
+  color: red;   padding-top: 120px;
+  margin-bottom: 30px;" data-aos="fade-up">COMMUNITY PARTNERS</h3>
 
-      <h1 class="text-dark" style="  font-size: 30px;
+      <h1 class="text-dark" style=" font-size: 30px;
   color: white;
   margin-top: 30px;">Conecting to Our Community</h1>
 
@@ -351,14 +350,19 @@ if (isset($_POST['submit'])) {
     </div>
   </div>
 
-  <div class="struct6">
+  <div class="slide6" style="  background-image: url(Imagini/Background6.png);
+  background-color: #161616;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;">
     <div class="container text-center">
       <h3 class="style-title5" style="  font-size: 15px;
-  color: red; " data-aos="fade-up">FIBER OPTICS</h3>
+  color: red;   padding-top: 50px;" data-aos="fade-up">FIBER OPTICS</h3>
 
-      <h1 class="subt-width" style="font-size: 30px;
+      <h1 class="subtw" style="font-size: 30px;
   color: white;
-  margin-top: 30px;">Bringing You a Faster, More Reliable Network with Fiber Optics</h1>
+  margin-top: 30px;   width: 100%;">Bringing You a Faster, More Reliable Network with Fiber Optics</h1>
 
       <p class="lines text text-struct" data-aos="fade-up">You deserve the highest levels of availability and performance - and we're
         here
