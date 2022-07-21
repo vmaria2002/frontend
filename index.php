@@ -205,22 +205,23 @@ if (isset($_POST['submit'])) {
         </div>
 
       </div>
-      <div class="marginebutton">
+
         <div class="row marginbutton">
-          <div class="col-md text-center background">
-            <a href="tel:800-311-7340" class="text-white textdec"><img class="img-padding" src="Imagini/Call.png" alt="call"> Call
-              800-311-7340</a>
-          </div>
-          <div class="col-md text-center background">
-            <a href="#paginastart" class="text-white textdec"><img class="img-padding" src="Imagini/Get Started.png" alt="get-started">
-              Get
-              Started</a>
-          </div>
-          <div class="col-md text-center background">
-            <a href="#paginastart" class="text-white textdec"><img class="img-padding" src="Imagini/Live Chat.png" alt="live-chat">Live
-              Chat</a>
-          </div>
+        <div class="col-md text-center background">
+          <a href="tel:800-311-7340" class="text-white textdec"><img class="img-padding" src="Imagini/Call.png" alt="call"> Call
+            800-311-7340</a>
         </div>
+        <div class="col-md text-center background">
+          <a href="#" class="text-white textdec"><img class="img-padding" src="Imagini/Get Started.png" alt="get-started">
+            Get
+            Started</a>
+        </div>
+        <div class="col-md text-center background">
+          <a href="#" class="text-white textdec"><img class="img-padding" src="Imagini/Live Chat.png" alt="live-chat">Live
+            Chat</a>
+        </div>
+      </div>
+
       </div>
     </div>
   </div>

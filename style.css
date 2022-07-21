@@ -347,6 +347,16 @@ img.img-padding {
   color: black;
 }
 
+.background {
+  background-color: #161616;
+  border: 1px solid rgb(63, 62, 62);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.background:hover{
+  background-color: grey;
+}
 .struct8 {
   background-image: url(Imagini/Background8.png);
   background-color: #161616;
