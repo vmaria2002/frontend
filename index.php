@@ -239,6 +239,7 @@ if (isset($_POST['submit'])) {
           places around the globe. We are connected to the Internet backbone at multiple peering points in Chicago,
           Southfield, and Toledo.
 </h1>
+        <!-- fluid: is responsive -->
         <img class="img-fluid img2-style" src="Imagini/Img2.png">
       </div>
     </div>
@@ -246,12 +247,13 @@ if (isset($_POST['submit'])) {
 
   <div class="slide3" style="background-color: #161616;">
     <div class="container" data-aos="fade-up">
-      <div class="style3">
-        <img class="img3-style" src="Imagini/ImgCasa.png">
+      <div class="style3" style="  position: relative;
+  top: 100px;">
+        <img class="img3-style"style="width: 100%;" src="Imagini/ImgCasa.png">
         <div class="padding">
-          <h3 class="col-md-7" style="  font-size: 15px;
+          <h3 class="col-md-7" style="font-size: 15px;
   color: red; ">HOMES SERVED</h3>
-          <div1 class="text-dark col-md-12" style=" font-size: 10px;
+          <div1 class="text-dark col-md-12" style="font-size: 10px;
   color: black;
   margin-top: 30px;">Serving Over 50,000 Residential Users. We are happy to serve over 9,000 homes and 20,000
             residents  with Internet, video entertainment, and phone services. This includes residents in the towns of Lenawee
@@ -308,11 +310,12 @@ if (isset($_POST['submit'])) {
             },
           });
         </script>
-
       </div>
     </div>
   </div>
-  <div class="slide5">
+  <div class="slide5" style="background-image: url(Imagini/Background5.png);
+  width: 100%;
+  text-align: center;">
     <div class="container">
       <h3 class="style-title5" style="  font-size: 15px;
   color: red;   padding-top: 120px;
@@ -350,7 +353,7 @@ if (isset($_POST['submit'])) {
     </div>
   </div>
 
-  <div class="slide6" style="  background-image: url(Imagini/Background6.png);
+  <div class="slide6" style="background-image: url(Imagini/Background6.png);
   background-color: #161616;
   width: 100%;
   background-size: cover;
@@ -386,7 +389,7 @@ if (isset($_POST['submit'])) {
     </div>
   </div>
 
-  <div class="slide7" style="  background-image: url(Imagini/Background7.png);
+  <div class="slide7" style="background-image: url(Imagini/Background7.png);
   background-color: #161616;
   width: 100%;
   background-size: cover;
@@ -477,13 +480,17 @@ if (isset($_POST['submit'])) {
                 Interruption"</h3>
               <h5 class="line text-center" style="  font-size: 15px;
   color: red; ">Review from Lexi Murray</h5>
-              <p class="cardtext1 lines">D & P Communications has been my service provider for several years following
+              <p class="cardtext1 lines" style="margin-left: 37.5px;
+  margin-right: 37.5px;
+  font-size: 16.5px;">D & P Communications has been my service provider for several years following
                 their buyout of TC3net. They have excellent customer service at their local service locations. They have
                 great Internet service, which is reliable and with the new fiber optic lines installed and high DSL, I
                 am able to work from home for my clients without interruptions and run multiple devices on my home Wi-Fi
                 systems withoyt lag time.
               </p>
-              <p class="cardtext1 lines">The folks at D&P are knowledgeable and very customer service
+              <p class="cardtext1 lines" style="margin-left: 37.5px;
+  margin-right: 37.5px;
+  font-size: 16.5px;"> The folks at D&P are knowledgeable and very customer service
                 orientated. I would recommend their services to anyone new to the area!
               </p>
             </div>
@@ -499,7 +506,9 @@ if (isset($_POST['submit'])) {
                 P Sooner"</h3>
               <h5 class="line text-center" style="  font-size: 15px;
   color: red; ">Review from Robert S.</h5>
-              <p class="cardtext2 lines">Fantastic! D&P advertised 110 MBPS download. I am getting - through
+              <p class="cardtext2 lines" style=" margin-left: 39.5px;
+  margin-right: 39.5px;
+  font-size: 16.5px;">Fantastic! D&P advertised 110 MBPS download. I am getting - through
                 my router 107 MBPS. Upload speed is 23 MBPS. Can't argue with that can you? Compare to Frontier DSL
                 which was 3.5 MBPS download (they promised 10 I think) and 0.25 MBPS upload. Pathetic! They started out
                 with at about 8.5 MBPS and then after a couple weeks I was lucky to hit 4 MBPS! This was after they
@@ -520,7 +529,9 @@ if (isset($_POST['submit'])) {
               </h3>
               <h5 class="line text-center" style="  font-size: 15px;
   color: red; ">Review from Kevon Binder</h5>
-              <p class="cardtext3 lines">We have D & P for our home in Blissfield. Great reliable service! Also have a
+              <p class="cardtext3 lines" style=" margin-left: 37px;
+  margin-right: 37px;
+  font-size: 16.5px;">We have D & P for our home in Blissfield. Great reliable service! Also have a
                 business account in Tecumseh for symmetrical fiber, and it's been almost 100% without interruption. The
                 one time we slowed speed for a couple hours, we were warned 48hrs in advance. Great company!
               </p>
@@ -541,7 +552,9 @@ if (isset($_POST['submit'])) {
                 P Sooner"</h3>
               <h5 class="line text-center" style="  font-size: 15px;
   color: red; ">Review from Robert S.</h5>
-              <p class="cardtext2 lines">Fantastic! D&P advertised 110 MBPS download. I am getting - through
+              <p class="cardtext2 lines" style=" margin-left: 39.5px;
+  margin-right: 39.5px;
+  font-size: 16.5px;">Fantastic! D&P advertised 110 MBPS download. I am getting - through
                 my router 107 MBPS. Upload speed is 23 MBPS. Can't argue with that can you? Compare to Frontier DSL
                 which was 3.5 MBPS download (they promised 10 I think) and 0.25 MBPS upload. Pathetic! They started out
                 with at about 8.5 MBPS and then after a couple weeks I was lucky to hit 4 MBPS! This was after they
@@ -562,7 +575,9 @@ if (isset($_POST['submit'])) {
               </h3>
               <h5 class="line text-center" style="  font-size: 15px;
   color: red; ">Review from Kevon Binder</h5>
-              <p class="cardtext3 lines">We have D & P for our home in Blissfield. Great reliable service! Also have a
+              <p class="cardtext3 lines" style=" margin-left: 37px;
+  margin-right: 37px;
+  font-size: 16.5px;">We have D & P for our home in Blissfield. Great reliable service! Also have a
                 business account in Tecumseh for symmetrical fiber, and it's been almost 100% without interruption. The
                 one time we slowed speed for a couple hours, we were warned 48hrs in advance. Great company!
               </p>
@@ -579,13 +594,17 @@ if (isset($_POST['submit'])) {
                 Interruption"</h3>
               <h5 class="line text-center" style="  font-size: 15px;
   color: red; ">Review from Lexi Murray</h5>
-              <p class="cardtext1 lines">D & P Communications has been my service provider for several years following
+              <p class="cardtext1 lines"style="margin-left: 37.5px;
+  margin-right: 37.5px;
+  font-size: 16.5px;">D & P Communications has been my service provider for several years following
                 their buyout of TC3net. They have excellent customer service at their local service locations. They have
                 great Internet service, which is reliable and with the new fiber optic lines installed and high DSL, I
                 am able to work from home for my clients without interruptions and run multiple devices on my home Wi-Fi
                 systems withoyt lag time.
               </p>
-              <p class="cardtext1 lines">The folks at D&P are knowledgeable and very customer service
+              <p class="cardtext1 lines"style="margin-left: 37.5px;
+  margin-right: 37.5px;
+  font-size: 16.5px;">The folks at D&P are knowledgeable and very customer service
                 orientated. I would recommend their services to anyone new to the area!
               </p>
             </div>
@@ -605,7 +624,9 @@ if (isset($_POST['submit'])) {
               </h3>
               <h5 class="line text-center" style="  font-size: 15px;
   color: red; ">Review from Kevon Binder</h5>
-              <p class="cardtext3 lines">We have D & P for our home in Blissfield. Great reliable service! Also have a
+              <p class="cardtext3 lines" style=" margin-left: 37px;
+  margin-right: 37px;
+  font-size: 16.5px;">We have D & P for our home in Blissfield. Great reliable service! Also have a
                 business account in Tecumseh for symmetrical fiber, and it's been almost 100% without interruption. The
                 one time we slowed speed for a couple hours, we were warned 48hrs in advance. Great company!
               </p>
@@ -622,13 +643,17 @@ if (isset($_POST['submit'])) {
                 Interruption"</h3>
               <h5 class="line text-center" style="  font-size: 15px;
   color: red; ">Review from Lexi Murray</h5>
-              <p class="cardtext1 lines">D & P Communications has been my service provider for several years following
+              <p class="cardtext1 lines"style="margin-left: 37.5px;
+  margin-right: 37.5px;
+  font-size: 16.5px;">D & P Communications has been my service provider for several years following
                 their buyout of TC3net. They have excellent customer service at their local service locations. They have
                 great Internet service, which is reliable and with the new fiber optic lines installed and high DSL, I
                 am able to work from home for my clients without interruptions and run multiple devices on my home Wi-Fi
                 systems withoyt lag time.
               </p>
-              <p class="cardtext1 lines">The folks at D&P are knowledgeable and very customer service
+              <p class="cardtext1 lines"style="margin-left: 37.5px;
+  margin-right: 37.5px;
+  font-size: 16.5px;">The folks at D&P are knowledgeable and very customer service
                 orientated. I would recommend their services to anyone new to the area!
               </p>
             </div>
@@ -645,7 +670,9 @@ if (isset($_POST['submit'])) {
                 P Sooner"</h3>
               <h5 class="line text-center" style="  font-size: 15px;
   color: red; ">Review from Robert S.</h5>
-              <p class="cardtext2 lines">Fantastic! D&P advertised 110 MBPS download. I am getting - through
+              <p class="cardtext2 lines"style=" margin-left: 39.5px;
+  margin-right: 39.5px;
+  font-size: 16.5px;">Fantastic! D&P advertised 110 MBPS download. I am getting - through
                 my router 107 MBPS. Upload speed is 23 MBPS. Can't argue with that can you? Compare to Frontier DSL
                 which was 3.5 MBPS download (they promised 10 I think) and 0.25 MBPS upload. Pathetic! They started out
                 with at about 8.5 MBPS and then after a couple weeks I was lucky to hit 4 MBPS! This was after they
@@ -656,23 +683,18 @@ if (isset($_POST['submit'])) {
               </p>
             </div>
           </div>
-
-
-
-
         </div>
       </div>
     </div>
-
   </div>
   </div>
 
-  <div class="struct9">
+  <div class="style9">
     <div class="container" data-aos="fade-up">
       <div class="style3">
         <img class="img3-style" src="Imagini/Background9.png">
         <div class="padding">
-          <h3 class="text-dark" style="  font-size: 30px;
+          <h3 class="text-dark" style="font-size: 30px;
   color: white;
   margin-top: 30px;">How May We Help You?</h3>
           <div class="row margin-top">
@@ -693,15 +715,20 @@ if (isset($_POST['submit'])) {
       </div>
     </div>
   </div>
-
   </div>
 
   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
   <footer>
-    <div class="footer">
+    <div class="footer" style=" background-image: url(Imagini/Background10.png);
+  background-color: #161616;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;">
       <div class="container">
-        <div class="row marginbutton1">
+        <div class="row marginbutton1" style="padding-top: 200px;
+  padding-bottom: 50px;">
           <div class="col-md text-center background">
             <a href="tel:800-311-7340" class="text-white textdec"><img class="img-padding" src="Imagini/Call.png" alt="call"> Call
               800-311-7340</a>
@@ -717,16 +744,12 @@ if (isset($_POST['submit'])) {
           </div>
         </div>
       </div>
-
-
       <div class="firstofall head pb-5" id="formularul">
         <div class="primer container py-5">
-
           <div class="card" data-aos="fade-up">
             <div class="card-body">
               <h1 class="font-weight-light text-center py-4">Contact Us</h1>
               <div class="row">
-
                 <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                   <form enctype="multipart/form-data" action="#" method="POST">
                     <div class="form-row">
@@ -772,8 +795,6 @@ if (isset($_POST['submit'])) {
                           </label>
                         </div>
                       </div>
-
-
                     </div>
                     <div class="form-row">
                       <div class="form-group col-lg-12 col-md-12 col-sm-12 col-12">
@@ -801,20 +822,18 @@ if (isset($_POST['submit'])) {
               </div>
             </div>
           </div>
-
         </div>
-
       </div>
 
 
       <div class="container p-5 pb-0">
         <div class="row textalgncenter">
           <div class="col-md margright text-center">
-            <a href="#paginastart" target="_blank"><img class="padlogo1" src="Imagini/Img1Footer.png" alt="call"></a>
+            <a href="#paginastart" target="_blank"><img class="padlogo1" style="padding-bottom: 30px;" src="Imagini/Img1Footer.png" alt="call"></a>
             <p><img class="padlogo2" src="Imagini/Img2Footer.png" alt="call"></p>
             <p>
               <img class="padlogo3" src="Imagini/Img3Footer.png" alt="call">
-              <img class="padlogo4" src="Imagini/Img4Footer.png" alt="call">
+              <img class="padlogo3" src="Imagini/Img4Footer.png" alt="call">
             </p>
           </div>
           <div class="col-md mt-4 ml-3">
@@ -907,7 +926,6 @@ if (isset($_POST['submit'])) {
               <a href="#" class="colortext">Board of Directors</a>
             </p>
           </div>
-
           <div class="col-md mt-4 ml-3">
             <h5 class="mb-4 font-weight-bold text-white">Locations</h5>
             <p class="marginbottom">
@@ -926,7 +944,6 @@ if (isset($_POST['submit'])) {
               <a href="#" class="colortext">Tecumseh</a>
             </p>
           </div>
-
           <div class="col-md mt-4 ml-3">
             <a href="#paginastart" class="mb-4 font-weight-bold text-white">Get Started</a>
             <h5 class="mb-4 font-weight-bold text-white">Service Area</h5>
@@ -937,16 +954,13 @@ if (isset($_POST['submit'])) {
           </div>
         </div>
       </div>
-
-      <div class="container2">
+      <div class="container">
         <div class="text-center p-3 border-top border-dark">
           <p class="colortext1">© 2019 D & P Communications. All Rights Reserved.</p>
         </div>
       </div>
     </div>
   </footer>
-
-
   <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
   <script src="assets/js/popper.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
@@ -1013,5 +1027,4 @@ if (isset($_POST['submit'])) {
     });
   </script>
 </body>
-
 </html>
