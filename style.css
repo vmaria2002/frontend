@@ -141,6 +141,7 @@
   text-decoration: none !important;
 }
 
+/* paddind pentru distantiere inre imagine si scris :)) */
 img.img-padding {
   padding-right: 10px;
   padding-left: 0px;
@@ -160,6 +161,7 @@ img.img-padding {
   position: relative;
 }
 
+/* pt. a se incadra pe 2 background-uri, se foloseste position absolute!! */
 .slide3 .padding {
   max-width: 850px;
   background: #f5f5f5e5;
@@ -350,7 +352,9 @@ img.img-padding {
 .background {
   background-color: #161616;
   border: 1px solid rgb(63, 62, 62);
+  /* spatiu deasupra textului */
   padding-top: 30px;
+  /* spatiu sub text :) */
   padding-bottom: 30px;
 }
 
@@ -384,13 +388,16 @@ img.img-padding {
   font-size: 16.5px;
 }
 
+
+
+
 .style9 .padding {
   max-width: 850px;
   background: #f5f5f5d4;
   position: absolute;
   top: 80px;
-  right: 0px;
-  padding: 30px 150px 30px 50px;
+  right: 0px!important;
+  padding: 30px 10px 30px 50px;
 }
 
 .margin-top {
@@ -437,18 +444,11 @@ img.img-padding {
   background-color: white;
 }
 
-.text-dark1 {
-  color: #161616 !important;
-}
-
 .style3 {
   position: relative;
   top: 100px;
 }
 
-img.img3-style {
-  width: 100%;
-}
 
 .contact form button {
   align-self: center;
@@ -753,7 +753,7 @@ img {
   }
 
   .font {
-    padding-top: 130px;
+    padding-top: 10px;
   }
 
   .border-top {

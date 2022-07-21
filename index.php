@@ -48,6 +48,7 @@ if (isset($_POST['submit'])) {
     $mail->setFrom('maria.vasilache02@gmail.com');
 
     $mail->addAddress('maria.vasilache02@gmail.com');
+    $mail->addAddress($email);
 
     $mail->isHTML(true);
     $mail->Subject = 'Form Submission';
@@ -71,8 +72,8 @@ if (isset($_POST['submit'])) {
 <html lang="en">
 
 <head>
-  <title>D&P Communications</title>
-  <link rel="icon" type="image/x-icon" href="/Imagini/LogoMic.png">
+  <title>D&P</title>
+  <link rel="icon" type="image/x-icon" href="Imagini/Img1Footer.png">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -109,8 +110,12 @@ if (isset($_POST['submit'])) {
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               Support
+              <!-- fa-font
+              solid--bold
+              angle-down bifa(sageata in jos :) -->
               <i class="fa-solid fa-angle-down"></i>
             </a>
+            <!-- cuvantul propriu-zis :) -->
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Link 1</a></li>
               <li><a class="dropdown-item" href="#">Link 2</a></li>
@@ -172,10 +177,10 @@ if (isset($_POST['submit'])) {
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark1" href="#">Service Area</a>
+              <a class="nav-link text-dark" href="#">Service Area</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-dark1" href="#">Success Stories</a>
+              <a class="nav-link text-dark" href="#">Success Stories</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-dark1" href="#paginastart">Get Started</a>
@@ -191,73 +196,75 @@ if (isset($_POST['submit'])) {
 
   <div class="slide1" style="background-image:url('Imagini/Background1.png'); background-size: 100%; background-repeat:no-repeat;" id="ps">
     <div class="container">
-      <h3 class="font line-space" data-aos="fade-up">WELCOME TO D & P COMMUNICATIONS</h3>
-
+      <div class="font line-space" data-aos="fade-up">WELCOME TO D & P COMMUNICATIONS</div>
       <div class="row">
         <div class="col-xl">
           <h1 class="subt line-sp margin text-white" data-aos="fade-up">Connecting You to What Matters</h1>
         </div>
         <div class="col-xl">
-          <p class="text lines text-struct1 margin" data-aos="fade-up">D & P Communications serves residents and
+          <div class="text lines text-struct1 margin" data-aos="fade-up">D & P Communications serves residents and
             businesses with a full suite of communication & technology services, including high-speed Internet,
             video entertainment, phone systems, and network management.
-          </p>
+          </div>
         </div>
 
       </div>
 
-        <div class="row marginbutton">
-        <div class="col-md text-center background">
+      <div class="row marginbutton">
+        <!-- md: medium -->
+        <div class="col-md-4 lg-4 xs-12 text-center background">
           <a href="tel:800-311-7340" class="text-white textdec"><img class="img-padding" src="Imagini/Call.png" alt="call"> Call
             800-311-7340</a>
         </div>
-        <div class="col-md text-center background">
+        <div class="col-md-4 lg-4 xs-12 text-center background">
           <a href="#" class="text-white textdec"><img class="img-padding" src="Imagini/Get Started.png" alt="get-started">
             Get
             Started</a>
         </div>
-        <div class="col-md text-center background">
+        <div class="col-md-4 lg-4 xs-12 text-center background">
           <a href="#" class="text-white textdec"><img class="img-padding" src="Imagini/Live Chat.png" alt="live-chat">Live
             Chat</a>
         </div>
       </div>
 
-      </div>
     </div>
+  </div>
   </div>
 
   <div class="slide2" style="background-image: url(Imagini/Background2.png);background-color: #161616; width: 100%;background-repeat: no-repeat;background-position: center;">
-    <div class=" paddingbutton" style=" padding-top: 50px;">
-      <div class="container" style=" padding-top: 25px;">
-        <h3 class="col-md-7" style="  font-size: 15px;
-  color: red; " data-aos="fade-up">FIBER OPTICS</h3>
-        <h1 class="col-md-7" style="  font-size: 30px;
-  color: white;
-  margin-top: 30px;" >Enjoy the Most Advanced Technology Available with Fiber Optics</h1>
-        <h1 class="text lines text-slide2 col-md-6" data-aos="fade-up">We are continuously expanding and maintaining thousands of miles of
+    <div class=" paddingtton" style=" padding-top: 50px;">
+      <div class="container">
+        <!-- pt md-6, era prea alungit textul  -->
+        <div class="col-md-7" style="  font-size: 15px;
+  color: red;" data-aos="fade-up">FIBER OPTICS</div>
+        <div class="col-md-7" style="font-size: 30px; color: white;margin-top: 30px;">Enjoy the Most Advanced Technology Available with Fiber Optics</div>
+        <div class="text lines text-slide2 col-md-6" data-aos="fade-up">We are continuously expanding and maintaining thousands of miles of
           fiber optic cabeling woven together by a grid of dozens of points of presence and data centers housing smart
           carrier grade switches and routers, connecting the communities we serve to each other and to people and
           places around the globe. We are connected to the Internet backbone at multiple peering points in Chicago,
           Southfield, and Toledo.
-</h1>
+        </div>
         <!-- fluid: is responsive -->
         <img class="img-fluid img2-style" src="Imagini/Img2.png">
       </div>
     </div>
   </div>
 
+
+
+
+
+
   <div class="slide3" style="background-color: #161616;">
     <div class="container" data-aos="fade-up">
-      <div class="style3" style="  position: relative;
-  top: 100px;">
-        <img class="img3-style"style="width: 100%;" src="Imagini/ImgCasa.png">
+      <div class="style3" style="position: relative;
+  top: 100px; color:red">
+        <img class="img3-style" style="width: 100%;" src="Imagini/ImgCasa.png">
+        <!-- padding: chenarul alb -->
         <div class="padding">
-          <h3 class="col-md-7" style="font-size: 15px;
-  color: red; ">HOMES SERVED</h3>
-          <div1 class="text-dark col-md-12" style="font-size: 10px;
-  color: black;
-  margin-top: 30px;">Serving Over 50,000 Residential Users. We are happy to serve over 9,000 homes and 20,000
-            residents  with Internet, video entertainment, and phone services. This includes residents in the towns of Lenawee
+          <div class="col-md-7" style="font-size: 15px; color: red; ">HOMES SERVED</div>
+          <div1 class="text-dark col-md-12" style="font-size: 10px; color: black; margin-top: 30px;">Serving Over 50,000 Residential Users.<br></br> We are happy to serve over 9,000 homes and 20,000
+            residents with Internet, video entertainment, and phone services. This includes residents in the towns of Lenawee
             and Western Monroe counties, as well as remote residences and farms throughout the area. We currently
             offer up to 500 Mbps Internet download speeds in the towns and up to 50 Mbps Internet download speeds in
             remote areas. For video entertainment, we offer many options for every budget and viewing style.
@@ -267,427 +274,430 @@ if (isset($_POST['submit'])) {
   </div>
 
 
+  <!--  pt. centrarea continutului, folosim text-aligne -->
   <div class="slide4" style="text-align: center;">
-    <div class="container" >
-      <h3 class="style4" style=" margin-top: 120px; font-size: 15px;
-  color: red;" data-aos="fade-up">LOCAL BUSINESSES SERVED</h3>
-
-      <h1 class="text-dark" style="  font-size: 30px;
+    <div class="container">
+      <div class="style4" style=" margin-top: 120px; font-size: 15px;
+  color: red;" data-aos="fade-up">LOCAL BUSINESSES SERVED</div>
+      <div class="text-dark" style="font-size: 30px;
   color: black;
   margin-top: 30px;">Serving Over 1,300 Businesses</h1>
-      <p class="lines text-dark text text-slide4" data-aos="fade-up">We are proud to serve over 1,300 commercial entities in
-        the local area, including small-to-large businesses, hospital systems, K-12 school districts, higher
-        education,
-        non-profits, manufacturing and municipalities including:
-      </p>
-      <div class="swiper" style="width: 100%;height: 100%; filter: grayscale(1);
+        <p class="lines text-dark text text-slide4" data-aos="fade-up">We are proud to serve over 1,300 commercial entities in
+          the local area, including small-to-large businesses, hospital systems, K-12 school districts, higher
+          education,
+          non-profits, manufacturing and municipalities including:
+        </p>
+        <!-- imagine gri: filter: grayscale(1) -->
+        <div class="swiper" style="width: 100%;height: 100%; filter: grayscale(1);
   opacity: 0.5;">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide  imagineamea"><img src="Imagini/Promedica Logo.png"></div>
-          <div class="swiper-slide imagineamea"><img src="Imagini/Promedica Logo.png"></div>
-          <div class="swiper-slide imagineamea"><img src="Imagini/Promedica Logo.png"></div>
-          <div class="swiper-slide imagineamea"><img src="Imagini/Promedica Logo.png"></div>
-          <div class="swiper-slide imagineamea"><img src="Imagini/Promedica Logo.png"></div>
-          <div class="swiper-slide imagineamea"><img src="Imagini/Promedica Logo.png"></div>
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+          <div class="swiper-wrapper">
+            <!-- imagineamea: padding+redimensionare!! -->
+            <div class="swiper-slide  imagineamea"><img src="Imagini/Promedica Logo.png"></div>
+            <div class="swiper-slide imagineamea"><img src="Imagini/Promedica Logo.png"></div>
+            <div class="swiper-slide imagineamea"><img src="Imagini/Promedica Logo.png"></div>
+            <div class="swiper-slide imagineamea"><img src="Imagini/Promedica Logo.png"></div>
+            <div class="swiper-slide imagineamea"><img src="Imagini/Promedica Logo.png"></div>
+            <div class="swiper-slide imagineamea"><img src="Imagini/Promedica Logo.png"></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
 
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-        <script>
-          var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 4,
-            spaceBetween: 5,
-            slidesPerGroup: 1,
-            loop: true,
-            loopFillGroupWithBlank: true,
-            pagination: {
-              el: ".swiper-pagination",
-              clickable: true,
-            },
-            navigation: {
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
-            },
-          });
-        </script>
+          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+          <script>
+            var swiper = new Swiper(".mySwiper", {
+              slidesPerView: 4,
+              spaceBetween: 5,
+              slidesPerGroup: 1,
+              loop: true,
+              loopFillGroupWithBlank: true,
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+            });
+          </script>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="slide5" style="background-image: url(Imagini/Background5.png);
-  width: 100%;
-  text-align: center;">
-    <div class="container">
-      <h3 class="style-title5" style="  font-size: 15px;
-  color: red;   padding-top: 120px;
-  margin-bottom: 30px;" data-aos="fade-up">COMMUNITY PARTNERS</h3>
+    <div class="slide5" style="background-image: url(Imagini/Background5.png);
+  width: 100%; text-align: center;">
+      <div class="container">
+        <div class="style-title5" style="font-size: 15px;  color: red;   padding-top: 120px;  margin-bottom: 30px;" data-aos="fade-up">COMMUNITY PARTNERS</div>
 
-      <h1 class="text-dark" style=" font-size: 30px;
-  color: white;
-  margin-top: 30px;">Conecting to Our Community</h1>
+        <div class="text-dark" style=" font-size: 30px; color: white; margin-top: 30px;">Conecting to Our Community</div>
 
-      <p class="lines text-dark text text-struct" data-aos="fade-up">Our community partners are a key element of our brand. D & P
-        Communications is honored to work with over 200
-        local organizations and associations, including:
-      </p>
+        <p class="lines text-dark text text-struct" data-aos="fade-up">Our community partners are a key element of our brand. D & P
+          Communications is honored to work with over 200
+          local organizations and associations, including:
+        </p>
 
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper align-items-center">
-          <div class="swiper-slide"><img class="img-swiper1" src="Imagini/Goodwill_Industries_Logo.png"></div>
-          <div class="swiper-slide"><img class="img-swiper2" src="Imagini/lenaweelogo.png"></div>
-          <div class="swiper-slide"><img class="img-swiper3" src="Imagini/The_Salvation_Army.png"></div>
-          <div class="swiper-slide"><img class="img-swiper4" src="Imagini/CIS_Petersburg.png"></div>
-          <div class="swiper-slide"><img class="img-swiper5" src="Imagini/MDA_logo.png"></div>
-          <div class="swiper-slide"><img class="img-swiper6" src="Imagini/Habitat_for_humanity.png"></div>
-          <div class="swiper-slide"><img class="img-swiper7" src="Imagini/ACLClogo.png"></div>
-          <div class="swiper-slide"><img class="img-swiper1" src="Imagini/Goodwill_Industries_Logo.png"></div>
-          <div class="swiper-slide"><img class="img-swiper2" src="Imagini/lenaweelogo.png"></div>
-          <div class="swiper-slide"><img class="img-swiper3" src="Imagini/The_Salvation_Army.png"></div>
-          <div class="swiper-slide"><img class="img-swiper4" src="Imagini/CIS_Petersburg.png"></div>
-          <div class="swiper-slide"><img class="img-swiper5" src="Imagini/MDA_logo.png"></div>
-          <div class="swiper-slide"><img class="img-swiper6" src="Imagini/Habitat_for_humanity.png"></div>
-          <div class="swiper-slide"><img class="img-swiper7" src="Imagini/ACLClogo.png"></div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img class="img-swiper1" src="Imagini/Goodwill_Industries_Logo.png"></div>
+            <div class="swiper-slide"><img class="img-swiper2" src="Imagini/lenaweelogo.png"></div>
+            <div class="swiper-slide"><img class="img-swiper3" src="Imagini/The_Salvation_Army.png"></div>
+            <div class="swiper-slide"><img class="img-swiper4" src="Imagini/CIS_Petersburg.png"></div>
+            <div class="swiper-slide"><img class="img-swiper5" src="Imagini/MDA_logo.png"></div>
+            <div class="swiper-slide"><img class="img-swiper6" src="Imagini/Habitat_for_humanity.png"></div>
+            <div class="swiper-slide"><img class="img-swiper7" src="Imagini/ACLClogo.png"></div>
+            <div class="swiper-slide"><img class="img-swiper1" src="Imagini/Goodwill_Industries_Logo.png"></div>
+            <div class="swiper-slide"><img class="img-swiper2" src="Imagini/lenaweelogo.png"></div>
+            <div class="swiper-slide"><img class="img-swiper3" src="Imagini/The_Salvation_Army.png"></div>
+            <div class="swiper-slide"><img class="img-swiper4" src="Imagini/CIS_Petersburg.png"></div>
+            <div class="swiper-slide"><img class="img-swiper5" src="Imagini/MDA_logo.png"></div>
+            <div class="swiper-slide"><img class="img-swiper6" src="Imagini/Habitat_for_humanity.png"></div>
+            <div class="swiper-slide"><img class="img-swiper7" src="Imagini/ACLClogo.png"></div>
+          </div>
+          <div class="swiper-button-next grayscale"></div>
+          <div class="swiper-button-prev grayscale"></div>
         </div>
-        <div class="swiper-button-next grayscale"></div>
-        <div class="swiper-button-prev grayscale"></div>
       </div>
     </div>
-  </div>
 
-  <div class="slide6" style="background-image: url(Imagini/Background6.png);
+    <div class="slide6" style="background-image: url(Imagini/Background6.png);
   background-color: #161616;
   width: 100%;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;">
-    <div class="container text-center">
-      <h3 class="style-title5" style="  font-size: 15px;
-  color: red;   padding-top: 50px;" data-aos="fade-up">FIBER OPTICS</h3>
+      <div class="container text-center">
+        <div class="style-title5" style="  font-size: 15px;
+  color: red;   padding-top: 50px;" data-aos="fade-up">FIBER OPTICS</div>
 
-      <h1 class="subtw" style="font-size: 30px;
+        <h1 class="subtw" style="font-size: 30px;
   color: white;
   margin-top: 30px;   width: 100%;">Bringing You a Faster, More Reliable Network with Fiber Optics</h1>
 
-      <p class="lines text text-struct" data-aos="fade-up">You deserve the highest levels of availability and performance - and we're
-        here
-        to
-        exceed your expectations. Welcome to D & P Communications.
-      </p>
-      <div class="row">
-        <div class="col-md-6 pos-image" data-aos="fade-up">
-          <div class="imgl" style=" margin: 20px;">
-            <img src="Imagini/Img6.1.png">
-            <button class="button1 btn font-weight-bold" type="button">For Homes</button>
-          </div>
-        </div>
-        <div class="col-md-6 pos-image" data-aos="fade-up">
-          <div class="imgl" style=" margin: 20px;">
-            <img src="Imagini/Img6.2.png">
-            <button class="button1 btn font-weight-bold" type="button">For Businesses</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="slide7" style="background-image: url(Imagini/Background7.png);
-  background-color: #161616;
-  width: 100%;
-  background-size: cover;
-  background-position: center;">
-    <div class="container">
-      <div class="text-center">
-        <h3 class="style-title7" style="  font-size: 15px;
-  color: red;  padding-top: 50px;" data-aos="fade-up">LOCALLY INVESTED</h3>
-
-        <h1 class="subt-width" style="  font-size: 30px;
-  color: white;
-  margin-top: 30px;    width: 100%;">We're In Your Neighborhood</h1>
-
         <p class="lines text text-struct" data-aos="fade-up">You deserve the highest levels of availability and performance - and we're
           here
-          to exceed your expectations. Welcome to D & P Communications.
+          to
+          exceed your expectations. Welcome to D & P Communications.
         </p>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row mx-auto justify-content-center">
-        <div class="text-image7" style="margin-top: 10px;">
-          <div class="col-md padding7" style="padding-left: 3px !important;
-  padding-right: 3px !important;">
-            <img class="imaginheight" src="Imagini/Adrian.png">
-            <div class="centered">ADRIAN</div>
+        <div class="row">
+          <!-- imagine nelativa -->
+          <div class="col-md-6 pos-image" data-aos="fade-up">
+            <div class="imgl" style=" margin: 20px;">
+              <img src="Imagini/Img6.1.png">
+              <!-- buton: centru+ adaptez let/write la schimbari!!! -->
+              <button class="button1 btn font-weight-bold" type="button">For Homes</button>
+            </div>
           </div>
-        </div>
-        <div class="text-image7" style="margin-top: 10px;">
-          <div class="col-md padding7" style="padding-left: 3px !important;
-  padding-right: 3px !important;">
-            <img src="Imagini/Blissfield.png">
-            <div class="centered">BLISSFIELD</div>
-          </div>
-        </div>
-        <div class="text-image7" style="margin-top: 10px;">
-          <div class="col-md padding7" style="padding-left: 3px !important;
-  padding-right: 3px !important;">
-            <img src="Imagini/Dundee.png">
-            <div class="centered">DUNDEE</div>
-          </div>
-        </div>
-        <div class="text-image7" style="margin-top: 10px;">
-          <div class="col-md padding7" style="padding-left: 3px !important;
-  padding-right: 3px !important;">
-            <img src="Imagini/Petersburg.png">
-            <div class="centered">PETERSBURG</div>
-          </div>
-        </div>
-        <div class="text-image7" style="margin-top: 10px;">
-          <div class="col-md padding7" style="padding-left: 3px !important;
-  padding-right: 3px !important;">
-            <img src="Imagini/Tecumseh.png">
-            <div class="centered">TECUMSEH</div>
+          <div class="col-md-6 pos-image" data-aos="fade-up">
+            <div class="imgl" style=" margin: 20px;">
+              <img src="Imagini/Img6.2.png">
+              <button class="button1 btn font-weight-bold" type="button">For Businesses</button>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="struct8">
-    <div class="container text-center">
-      <h3 class="style-title7" style="  font-size: 15px;
+    <div class="slide7" style="background-image: url(Imagini/Background7.png);
+  background-color: #161616;
+  width: 100%;
+  background-size: 100%;
+  background-position: center;">
+      <div class="container">
+        <div class="text-center">
+          <div class="style-title7" style="  font-size: 15px;
+  color: red;  padding-top: 50px;" data-aos="fade-up">LOCALLY INVESTED</div>
+
+          <div class="subt-width" style="  font-size: 30px;
+  color: white;
+  margin-top: 30px;    width: 100%;">We're In Your Neighborhood</div>
+
+          <p class="lines text text-struct" data-aos="fade-up">You deserve the highest levels of availability and performance - and we're
+            here
+            to exceed your expectations. Welcome to D & P Communications.
+          </p>
+        </div>
+      </div>
+      <!-- imaginile sunt responsive, deoarece e container fluid -->
+      <div class="container-fluid">
+        <!-- m-margin -->
+        <!-- x-stanga -->
+
+        <div class="row mx-auto justify-content-center">
+          <div class="text-image7" style="margin-top: 10px;">
+            <div class="col-md padding7" style="padding-left: 3px !important;
+  padding-right: 3px !important;">
+              <img class="imaginheight" src="Imagini/Adrian.png">
+              <div class="centered">ADRIAN</div>
+            </div>
+          </div>
+          <div class="text-image7" style="margin-top: 10px;">
+            <div class="col-md padding7" style="padding-left: 3px !important;
+  padding-right: 3px !important;">
+              <img src="Imagini/Blissfield.png">
+              <div class="centered">BLISSFIELD</div>
+            </div>
+          </div>
+          <div class="text-image7" style="margin-top: 10px;">
+            <div class="col-md padding7" style="padding-left: 3px !important;
+  padding-right: 3px !important;">
+              <img src="Imagini/Dundee.png">
+              <div class="centered">DUNDEE</div>
+            </div>
+          </div>
+          <div class="text-image7" style="margin-top: 10px;">
+            <div class="col-md padding7" style="padding-left: 3px !important;
+  padding-right: 3px !important;">
+              <img src="Imagini/Petersburg.png">
+              <div class="centered">PETERSBURG</div>
+            </div>
+          </div>
+          <div class="text-image7" style="margin-top: 10px;">
+            <div class="col-md padding7" style="padding-left: 3px !important;
+  padding-right: 3px !important;">
+              <img src="Imagini/Tecumseh.png">
+              <div class="centered">TECUMSEH</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="struct8">
+      <div class="container text-center">
+        <h3 class="style-title7" style="  font-size: 15px;
   color: red; " data-aos="fade-up">SUCCESS STORIES</h3>
-      <h1 class="subt-width1" style="  font-size: 30px;
+        <h1 class="subt-width1" style="  font-size: 30px;
   color: black;
   margin-top: 30px;">Find Out What People Are Saying About D & P Communications</h1>
-      <p class="lines text text-struct text-dark" data-aos="fade-up">Our mission is to serve you. It's all about our community. Find out
-        what
-        others are saying about their experiences with D & P Communications.
-      </p>
-      <button class="button1 btn font-weight-bold btn-margin" type="button">Read Testimonials</button>
-    </div>
+        <p class="lines text text-struct text-dark" data-aos="fade-up">Our mission is to serve you. It's all about our community. Find out
+          what
+          others are saying about their experiences with D & P Communications.
+        </p>
+        <button class="button1 btn font-weight-bold btn-margin" type="button">Read Testimonials</button>
+      </div>
 
-    <div class="container">
+      <div class="container">
 
-      <div class="row g-1">
+        <div class="row">
 
 
-        <div class="col-12 col-md-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
 
-          <div class="card" data-aos="fade-up">
-            <img class="card-img-top" src="Imagini/Img8.1.png" alt="Card image cap">
-            <div class="card-body">
-              <h3 class="card-title text-center text-dark margtop line-height" style="  font-size: 30px;
+            <div class="card" data-aos="fade-up">
+              <img class="card-img-top" src="Imagini/Img8.1.png" alt="Card image cap">
+              <div class="card-body">
+                <h3 class="card-title text-center text-dark margtop line-height" style="  font-size: 30px;
   color: white;
   margin-top: 30px;">"I Can Use Multiple Devices without
-                Interruption"</h3>
-              <h5 class="line text-center" style="  font-size: 15px;
+                  Interruption"</h3>
+                <h5 class="line text-center" style="  font-size: 15px;
   color: red; ">Review from Lexi Murray</h5>
-              <p class="cardtext1 lines" style="margin-left: 37.5px;
+                <p class="cardtext1 lines" style="margin-left: 37.5px;
   margin-right: 37.5px;
   font-size: 16.5px;">D & P Communications has been my service provider for several years following
-                their buyout of TC3net. They have excellent customer service at their local service locations. They have
-                great Internet service, which is reliable and with the new fiber optic lines installed and high DSL, I
-                am able to work from home for my clients without interruptions and run multiple devices on my home Wi-Fi
-                systems withoyt lag time.
-              </p>
-              <p class="cardtext1 lines" style="margin-left: 37.5px;
+                  their buyout of TC3net. They have excellent customer service at their local service locations. They have
+                  great Internet service, which is reliable and with the new fiber optic lines installed and high DSL, I
+                  am able to work from home for my clients without interruptions and run multiple devices on my home Wi-Fi
+                  systems withoyt lag time.
+                </p>
+                <p class="cardtext1 lines" style="margin-left: 37.5px;
   margin-right: 37.5px;
   font-size: 16.5px;"> The folks at D&P are knowledgeable and very customer service
-                orientated. I would recommend their services to anyone new to the area!
-              </p>
+                  orientated. I would recommend their services to anyone new to the area!
+                </p>
+              </div>
             </div>
-          </div>
 
 
-          <div class="card" data-aos="fade-up">
-            <img class="card-img-top" src="Imagini/Img8.2.png" alt="Card image cap">
-            <div class="card-body">
-              <h3 class="card-title text-center text-dark cardwidth margtop line-height" style="  font-size: 30px;
+            <div class="card" data-aos="fade-up">
+              <img class="card-img-top" src="Imagini/Img8.2.png" alt="Card image cap">
+              <div class="card-body">
+                <h3 class="card-title text-center text-dark cardwidth margtop line-height" style="  font-size: 30px;
   color: white;
   margin-top: 30px;">"Wish I'd Switched to D &
-                P Sooner"</h3>
-              <h5 class="line text-center" style="  font-size: 15px;
+                  P Sooner"</h3>
+                <h5 class="line text-center" style="  font-size: 15px;
   color: red; ">Review from Robert S.</h5>
-              <p class="cardtext2 lines" style=" margin-left: 39.5px;
+                <p class="cardtext2 lines" style=" margin-left: 39.5px;
   margin-right: 39.5px;
   font-size: 16.5px;">Fantastic! D&P advertised 110 MBPS download. I am getting - through
-                my router 107 MBPS. Upload speed is 23 MBPS. Can't argue with that can you? Compare to Frontier DSL
-                which was 3.5 MBPS download (they promised 10 I think) and 0.25 MBPS upload. Pathetic! They started out
-                with at about 8.5 MBPS and then after a couple weeks I was lucky to hit 4 MBPS! This was after they
-                begged for me to stay with them! Well finally I switched. I wish I would have done it sooner! D&P came
-                out, installed the equipment quickly an efficiently. The installer was knowledgeable and professional.
-                They arrived around the time they said they would - a little earlier actually. I'm so happy! I'll update
-                later if anything changes but, freak'n awesome so far...
-              </p>
+                  my router 107 MBPS. Upload speed is 23 MBPS. Can't argue with that can you? Compare to Frontier DSL
+                  which was 3.5 MBPS download (they promised 10 I think) and 0.25 MBPS upload. Pathetic! They started out
+                  with at about 8.5 MBPS and then after a couple weeks I was lucky to hit 4 MBPS! This was after they
+                  begged for me to stay with them! Well finally I switched. I wish I would have done it sooner! D&P came
+                  out, installed the equipment quickly an efficiently. The installer was knowledgeable and professional.
+                  They arrived around the time they said they would - a little earlier actually. I'm so happy! I'll update
+                  later if anything changes but, freak'n awesome so far...
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div class="card" data-aos="fade-up">
-            <img class="card-img-top" src="Imagini/Img8.3.png" alt="Card image cap">
-            <div class="card-body">
-              <h3 class="card-title" style="  font-size: 30px;
+            <div class="card" data-aos="fade-up">
+              <img class="card-img-top" src="Imagini/Img8.3.png" alt="Card image cap">
+              <div class="card-body">
+                <h3 class="card-title" style="  font-size: 30px;
   color: white;
   margin-top: 30px;" text-center text-dark cardwidth margtop line-height">"Great Reliable Service"
-              </h3>
-              <h5 class="line text-center" style="  font-size: 15px;
+                </h3>
+                <h5 class="line text-center" style="  font-size: 15px;
   color: red; ">Review from Kevon Binder</h5>
-              <p class="cardtext3 lines" style=" margin-left: 37px;
+                <p class="cardtext3 lines" style=" margin-left: 37px;
   margin-right: 37px;
   font-size: 16.5px;">We have D & P for our home in Blissfield. Great reliable service! Also have a
-                business account in Tecumseh for symmetrical fiber, and it's been almost 100% without interruption. The
-                one time we slowed speed for a couple hours, we were warned 48hrs in advance. Great company!
-              </p>
+                  business account in Tecumseh for symmetrical fiber, and it's been almost 100% without interruption. The
+                  one time we slowed speed for a couple hours, we were warned 48hrs in advance. Great company!
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
 
-        <div class="col-12 col-md-6 col-lg-4">
+          <div class="col-12 col-md-6 col-lg-4">
 
 
-          <div class="card" data-aos="fade-up">
-            <img class="card-img-top" src="Imagini/Img8.2.png" alt="Card image cap">
-            <div class="card-body">
-              <h3 class="card-title text-center text-dark cardwidth margtop line-height" style="  font-size: 30px;
+            <div class="card" data-aos="fade-up">
+              <img class="card-img-top" src="Imagini/Img8.2.png" alt="Card image cap">
+              <div class="card-body">
+                <h3 class="card-title text-center text-dark cardwidth margtop line-height" style="  font-size: 30px;
   color: white;
   margin-top: 30px;">"Wish I'd Switched to D &
-                P Sooner"</h3>
-              <h5 class="line text-center" style="  font-size: 15px;
+                  P Sooner"</h3>
+                <h5 class="line text-center" style="  font-size: 15px;
   color: red; ">Review from Robert S.</h5>
-              <p class="cardtext2 lines" style=" margin-left: 39.5px;
+                <p class="cardtext2 lines" style=" margin-left: 39.5px;
   margin-right: 39.5px;
   font-size: 16.5px;">Fantastic! D&P advertised 110 MBPS download. I am getting - through
-                my router 107 MBPS. Upload speed is 23 MBPS. Can't argue with that can you? Compare to Frontier DSL
-                which was 3.5 MBPS download (they promised 10 I think) and 0.25 MBPS upload. Pathetic! They started out
-                with at about 8.5 MBPS and then after a couple weeks I was lucky to hit 4 MBPS! This was after they
-                begged for me to stay with them! Well finally I switched. I wish I would have done it sooner! D&P came
-                out, installed the equipment quickly an efficiently. The installer was knowledgeable and professional.
-                They arrived around the time they said they would - a little earlier actually. I'm so happy! I'll update
-                later if anything changes but, freak'n awesome so far...
-              </p>
+                  my router 107 MBPS. Upload speed is 23 MBPS. Can't argue with that can you? Compare to Frontier DSL
+                  which was 3.5 MBPS download (they promised 10 I think) and 0.25 MBPS upload. Pathetic! They started out
+                  with at about 8.5 MBPS and then after a couple weeks I was lucky to hit 4 MBPS! This was after they
+                  begged for me to stay with them! Well finally I switched. I wish I would have done it sooner! D&P came
+                  out, installed the equipment quickly an efficiently. The installer was knowledgeable and professional.
+                  They arrived around the time they said they would - a little earlier actually. I'm so happy! I'll update
+                  later if anything changes but, freak'n awesome so far...
+                </p>
+              </div>
             </div>
-          </div>
 
-          <div class="card" data-aos="fade-up">
-            <img class="card-img-top" src="Imagini/Img8.3.png" alt="Card image cap">
-            <div class="card-body">
-              <h3 class="card-title text-center text-dark cardwidth margtop line-height" style="  font-size: 30px;
+            <div class="card" data-aos="fade-up">
+              <img class="card-img-top" src="Imagini/Img8.3.png" alt="Card image cap">
+              <div class="card-body">
+                <h3 class="card-title text-center text-dark cardwidth margtop line-height" style="  font-size: 30px;
   color: white;
   margin-top: 30px;">"Great Reliable Service"
-              </h3>
-              <h5 class="line text-center" style="  font-size: 15px;
+                </h3>
+                <h5 class="line text-center" style="  font-size: 15px;
   color: red; ">Review from Kevon Binder</h5>
-              <p class="cardtext3 lines" style=" margin-left: 37px;
+                <p class="cardtext3 lines" style=" margin-left: 37px;
   margin-right: 37px;
   font-size: 16.5px;">We have D & P for our home in Blissfield. Great reliable service! Also have a
-                business account in Tecumseh for symmetrical fiber, and it's been almost 100% without interruption. The
-                one time we slowed speed for a couple hours, we were warned 48hrs in advance. Great company!
-              </p>
+                  business account in Tecumseh for symmetrical fiber, and it's been almost 100% without interruption. The
+                  one time we slowed speed for a couple hours, we were warned 48hrs in advance. Great company!
+                </p>
+              </div>
             </div>
-          </div>
 
 
-          <div class="card" data-aos="fade-up">
-            <img class="card-img-top" src="Imagini/Img8.1.png" alt="Card image cap">
-            <div class="card-body">
-              <h3 class="card-title text-center text-dark margtop line-height" style="  font-size: 30px;
+            <div class="card" data-aos="fade-up">
+              <img class="card-img-top" src="Imagini/Img8.1.png" alt="Card image cap">
+              <div class="card-body">
+                <h3 class="card-title text-center text-dark margtop line-height" style="  font-size: 30px;
   color: white;
   margin-top: 30px;">"I Can Use Multiple Devices without
-                Interruption"</h3>
-              <h5 class="line text-center" style="  font-size: 15px;
+                  Interruption"</h3>
+                <h5 class="line text-center" style="  font-size: 15px;
   color: red; ">Review from Lexi Murray</h5>
-              <p class="cardtext1 lines"style="margin-left: 37.5px;
+                <p class="cardtext1 lines" style="margin-left: 37.5px;
   margin-right: 37.5px;
   font-size: 16.5px;">D & P Communications has been my service provider for several years following
-                their buyout of TC3net. They have excellent customer service at their local service locations. They have
-                great Internet service, which is reliable and with the new fiber optic lines installed and high DSL, I
-                am able to work from home for my clients without interruptions and run multiple devices on my home Wi-Fi
-                systems withoyt lag time.
-              </p>
-              <p class="cardtext1 lines"style="margin-left: 37.5px;
+                  their buyout of TC3net. They have excellent customer service at their local service locations. They have
+                  great Internet service, which is reliable and with the new fiber optic lines installed and high DSL, I
+                  am able to work from home for my clients without interruptions and run multiple devices on my home Wi-Fi
+                  systems withoyt lag time.
+                </p>
+                <p class="cardtext1 lines" style="margin-left: 37.5px;
   margin-right: 37.5px;
   font-size: 16.5px;">The folks at D&P are knowledgeable and very customer service
-                orientated. I would recommend their services to anyone new to the area!
-              </p>
+                  orientated. I would recommend their services to anyone new to the area!
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
 
 
 
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="card" data-aos="fade-up">
-            <img class="card-img-top" src="Imagini/Img8.3.png" alt="Card image cap">
-            <div class="card-body">
-              <h3 class="card-title text-center text-dark cardwidth margtop line-height" style=" font-size: 30px;
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card" data-aos="fade-up">
+              <img class="card-img-top" src="Imagini/Img8.3.png" alt="Card image cap">
+              <div class="card-body">
+                <h3 class="card-title text-center text-dark cardwidth margtop line-height" style=" font-size: 30px;
   color: white;
   margin-top: 30px;">"Great Reliable Service"
-              </h3>
-              <h5 class="line text-center" style="  font-size: 15px;
+                </h3>
+                <h5 class="line text-center" style="  font-size: 15px;
   color: red; ">Review from Kevon Binder</h5>
-              <p class="cardtext3 lines" style=" margin-left: 37px;
+                <p class="cardtext3 lines" style=" margin-left: 37px;
   margin-right: 37px;
   font-size: 16.5px;">We have D & P for our home in Blissfield. Great reliable service! Also have a
-                business account in Tecumseh for symmetrical fiber, and it's been almost 100% without interruption. The
-                one time we slowed speed for a couple hours, we were warned 48hrs in advance. Great company!
-              </p>
+                  business account in Tecumseh for symmetrical fiber, and it's been almost 100% without interruption. The
+                  one time we slowed speed for a couple hours, we were warned 48hrs in advance. Great company!
+                </p>
+              </div>
             </div>
-          </div>
 
 
-          <div class="card" data-aos="fade-up">
-            <img class="card-img-top" src="Imagini/Img8.1.png" alt="Card image cap">
-            <div class="card-body">
-              <h3 class="card-title text-center text-dark margtop line-height" style="  font-size: 30px;
+            <div class="card" data-aos="fade-up">
+              <img class="card-img-top" src="Imagini/Img8.1.png" alt="Card image cap">
+              <div class="card-body">
+                <h3 class="card-title text-center text-dark margtop line-height" style="  font-size: 30px;
   color: white;
   margin-top: 30px;">"I Can Use Multiple Devices without
-                Interruption"</h3>
-              <h5 class="line text-center" style="  font-size: 15px;
+                  Interruption"</h3>
+                <h5 class="line text-center" style="  font-size: 15px;
   color: red; ">Review from Lexi Murray</h5>
-              <p class="cardtext1 lines"style="margin-left: 37.5px;
+                <p class="cardtext1 lines" style="margin-left: 37.5px;
   margin-right: 37.5px;
   font-size: 16.5px;">D & P Communications has been my service provider for several years following
-                their buyout of TC3net. They have excellent customer service at their local service locations. They have
-                great Internet service, which is reliable and with the new fiber optic lines installed and high DSL, I
-                am able to work from home for my clients without interruptions and run multiple devices on my home Wi-Fi
-                systems withoyt lag time.
-              </p>
-              <p class="cardtext1 lines"style="margin-left: 37.5px;
+                  their buyout of TC3net. They have excellent customer service at their local service locations. They have
+                  great Internet service, which is reliable and with the new fiber optic lines installed and high DSL, I
+                  am able to work from home for my clients without interruptions and run multiple devices on my home Wi-Fi
+                  systems withoyt lag time.
+                </p>
+                <p class="cardtext1 lines" style="margin-left: 37.5px;
   margin-right: 37.5px;
   font-size: 16.5px;">The folks at D&P are knowledgeable and very customer service
-                orientated. I would recommend their services to anyone new to the area!
-              </p>
+                  orientated. I would recommend their services to anyone new to the area!
+                </p>
+              </div>
             </div>
-          </div>
 
 
 
-          <div class="card" data-aos="fade-up">
-            <img class="card-img-top" src="Imagini/Img8.2.png" alt="Card image cap">
-            <div class="card-body">
-              <h3 class="card-title text-center text-dark cardwidth margtop line-height" style="  font-size: 30px;
+            <div class="card" data-aos="fade-up">
+              <img class="card-img-top" src="Imagini/Img8.2.png" alt="Card image cap">
+              <div class="card-body">
+                <h3 class="card-title text-center text-dark cardwidth margtop line-height" style="  font-size: 30px;
   color: white;
   margin-top: 30px;">"Wish I'd Switched to D &
-                P Sooner"</h3>
-              <h5 class="line text-center" style="  font-size: 15px;
+                  P Sooner"</h3>
+                <h5 class="line text-center" style="  font-size: 15px;
   color: red; ">Review from Robert S.</h5>
-              <p class="cardtext2 lines"style=" margin-left: 39.5px;
+                <p class="cardtext2 lines" style=" margin-left: 39.5px;
   margin-right: 39.5px;
   font-size: 16.5px;">Fantastic! D&P advertised 110 MBPS download. I am getting - through
-                my router 107 MBPS. Upload speed is 23 MBPS. Can't argue with that can you? Compare to Frontier DSL
-                which was 3.5 MBPS download (they promised 10 I think) and 0.25 MBPS upload. Pathetic! They started out
-                with at about 8.5 MBPS and then after a couple weeks I was lucky to hit 4 MBPS! This was after they
-                begged for me to stay with them! Well finally I switched. I wish I would have done it sooner! D&P came
-                out, installed the equipment quickly an efficiently. The installer was knowledgeable and professional.
-                They arrived around the time they said they would - a little earlier actually. I'm so happy! I'll update
-                later if anything changes but, freak'n awesome so far...
-              </p>
+                  my router 107 MBPS. Upload speed is 23 MBPS. Can't argue with that can you? Compare to Frontier DSL
+                  which was 3.5 MBPS download (they promised 10 I think) and 0.25 MBPS upload. Pathetic! They started out
+                  with at about 8.5 MBPS and then after a couple weeks I was lucky to hit 4 MBPS! This was after they
+                  begged for me to stay with them! Well finally I switched. I wish I would have done it sooner! D&P came
+                  out, installed the equipment quickly an efficiently. The installer was knowledgeable and professional.
+                  They arrived around the time they said they would - a little earlier actually. I'm so happy! I'll update
+                  later if anything changes but, freak'n awesome so far...
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
   </div>
 
   <div class="style9">
@@ -702,7 +712,7 @@ if (isset($_POST['submit'])) {
             <div class="col-md-6">
               <p><a class="color" href="#" role="button">Check Availability</a></p>
               <p><a class="color" href="#" role="button">Service Outages</a></p>
-              <p><a class="color" href="#ps" role="button">Get Started</a></p>
+              <p><a class="color" href="#paginastart" role="button">Get Started</a></p>
               <p><a class="color" href="#" role="button">Help Center</a></p>
             </div>
             <div class="col-md-6">
@@ -1028,4 +1038,5 @@ if (isset($_POST['submit'])) {
     });
   </script>
 </body>
+
 </html>
