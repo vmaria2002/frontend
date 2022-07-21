@@ -371,13 +371,13 @@ if (isset($_POST['submit'])) {
       </p>
       <div class="row">
         <div class="col-md-6 pos-image" data-aos="fade-up">
-          <div class="img-pad">
+          <div class="imgl" style=" margin: 20px;">
             <img src="Imagini/Img6.1.png">
             <button class="button1 btn font-weight-bold" type="button">For Homes</button>
           </div>
         </div>
         <div class="col-md-6 pos-image" data-aos="fade-up">
-          <div class="img-pad">
+          <div class="imgl" style=" margin: 20px;">
             <img src="Imagini/Img6.2.png">
             <button class="button1 btn font-weight-bold" type="button">For Businesses</button>
           </div>
@@ -386,15 +386,19 @@ if (isset($_POST['submit'])) {
     </div>
   </div>
 
-  <div class="struct7">
+  <div class="slide7" style="  background-image: url(Imagini/Background7.png);
+  background-color: #161616;
+  width: 100%;
+  background-size: cover;
+  background-position: center;">
     <div class="container">
       <div class="text-center">
         <h3 class="style-title7" style="  font-size: 15px;
-  color: red; " data-aos="fade-up">LOCALLY INVESTED</h3>
+  color: red;  padding-top: 50px;" data-aos="fade-up">LOCALLY INVESTED</h3>
 
         <h1 class="subt-width" style="  font-size: 30px;
   color: white;
-  margin-top: 30px;">We're In Your Neighborhood</h1>
+  margin-top: 30px;    width: 100%;">We're In Your Neighborhood</h1>
 
         <p class="lines text text-struct" data-aos="fade-up">You deserve the highest levels of availability and performance - and we're
           here
@@ -404,32 +408,37 @@ if (isset($_POST['submit'])) {
     </div>
     <div class="container-fluid">
       <div class="row mx-auto justify-content-center">
-        <div class="text-image7">
-          <div class="col-md padding7">
+        <div class="text-image7" style="margin-top: 10px;">
+          <div class="col-md padding7" style="padding-left: 3px !important;
+  padding-right: 3px !important;">
             <img class="imaginheight" src="Imagini/Adrian.png">
             <div class="centered">ADRIAN</div>
           </div>
         </div>
-        <div class="text-image7">
-          <div class="col-md padding7">
+        <div class="text-image7" style="margin-top: 10px;">
+          <div class="col-md padding7" style="padding-left: 3px !important;
+  padding-right: 3px !important;">
             <img src="Imagini/Blissfield.png">
             <div class="centered">BLISSFIELD</div>
           </div>
         </div>
-        <div class="text-image7">
-          <div class="col-md padding7">
+        <div class="text-image7" style="margin-top: 10px;">
+          <div class="col-md padding7" style="padding-left: 3px !important;
+  padding-right: 3px !important;">
             <img src="Imagini/Dundee.png">
             <div class="centered">DUNDEE</div>
           </div>
         </div>
-        <div class="text-image7">
-          <div class="col-md padding7">
+        <div class="text-image7" style="margin-top: 10px;">
+          <div class="col-md padding7" style="padding-left: 3px !important;
+  padding-right: 3px !important;">
             <img src="Imagini/Petersburg.png">
             <div class="centered">PETERSBURG</div>
           </div>
         </div>
-        <div class="text-image7">
-          <div class="col-md padding7">
+        <div class="text-image7" style="margin-top: 10px;">
+          <div class="col-md padding7" style="padding-left: 3px !important;
+  padding-right: 3px !important;">
             <img src="Imagini/Tecumseh.png">
             <div class="centered">TECUMSEH</div>
           </div>
@@ -798,7 +807,7 @@ if (isset($_POST['submit'])) {
       </div>
 
 
-      <div class="container2 p-5 pb-0">
+      <div class="container p-5 pb-0">
         <div class="row textalgncenter">
           <div class="col-md margright text-center">
             <a href="#paginastart" target="_blank"><img class="padlogo1" src="Imagini/Img1Footer.png" alt="call"></a>

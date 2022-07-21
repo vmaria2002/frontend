@@ -303,9 +303,9 @@ img.img3-style {
   margin: auto;
 }
 
-.img-pad {
+/* .img-pad {
   margin: 20px;
-}
+} */
 
 .button1 {
   background-color: white !important;
@@ -321,9 +321,6 @@ img.img3-style {
   border-radius: 31px !important;
 }
 
-.button1:hover {
-  background-color: rgb(214, 214, 214) !important;
-}
 
 .pos-image {
   position: relative;
@@ -344,21 +341,6 @@ img.img3-style {
   -ms-transform: translate(-50%, -50%);
 }
 
-.container2 {
-  width: 75%;
-  height: auto;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.struct7 {
-  background-image: url(Imagini/Background7.png);
-  background-color: #161616;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-}
-
 .col-md {
   padding-left: 0 !important;
   padding-right: 0 !important;
@@ -366,11 +348,6 @@ img.img3-style {
 
 .imaginheight {
   bottom: 0px !important;
-}
-
-.padding7 {
-  padding-left: 3px !important;
-  padding-right: 3px !important;
 }
 
 .padding7:hover {
@@ -1137,17 +1114,6 @@ img {
     width: 100%;
   }
 
-  .subt-width {
-    width: 100%;
-  }
-
-  .style-title7 {
-    padding-top: 50px;
-  }
-
-  .text-image7 {
-    margin-top: 10px;
-  }
 
   .btn-margin {
     margin-top: 30px;
