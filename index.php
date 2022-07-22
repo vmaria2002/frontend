@@ -621,10 +621,6 @@ if (isset($_POST['submit'])) {
               </div>
             </div>
           </div>
-
-
-
-
           <div class="col-12 col-md-6 col-lg-4">
             <div class="card" data-aos="fade-up">
               <img class="card-img-top" src="Imagini/Img8.3.png" alt="Card image cap">
@@ -700,32 +696,31 @@ if (isset($_POST['submit'])) {
     </div>
   </div>
 
-  <div class="style9">
+  <div class="style9" style="position: relative">
     <div class="container" data-aos="fade-up">
-      <div class="style3">
+      <div class="style3" style="position: relative">
         <img class="img3-style" src="Imagini/Background9.png">
         <div class="padding">
-          <h3 class="text-dark" style="font-size: 30px;
-  color: white;
-  margin-top: 30px;">How May We Help You?</h3>
+          <div class="re">How May We Help You?</h3>
           <div class="row margin-top">
             <div class="col-md-6">
-              <p><a class="color" href="#" role="button">Check Availability</a></p>
-              <p><a class="color" href="#" role="button">Service Outages</a></p>
-              <p><a class="color" href="#paginastart" role="button">Get Started</a></p>
-              <p><a class="color" href="#" role="button">Help Center</a></p>
+              <p><a class=" color text-dark" style="text-decoration: none" href="#" role="button">Check Availability</a></p>
+              <p><a class="color text-dark" style="text-decoration: none" href="#" role="button">Service Outages</a></p>
+              <p><a class="color text-dark" style="text-decoration: none" href="#paginastart" role="button">Get Started</a></p>
+              <p><a class="color text-dark" style="text-decoration: none" href="#" role="button">Help Center</a></p>
             </div>
             <div class="col-md-6">
-              <p><a class="color" href="#" role="button"> News </a></p>
-              <p><a class="color" href="#" role="button"> Careers at D & P </a></p>
-              <p><a class="color" href="#" role="button"> Locations </a></p>
-              <p><a class="color" href="#" role="button"> Customer Service </a></p>
+              <p><a class="color text-dark" style="text-decoration: none" href="#" role="button"> News </a></p>
+              <p><a class="color text-dark" style="text-decoration: none" href="#" role="button"> Careers at D & P </a></p>
+              <p><a class="color text-dark" style="text-decoration: none" href="#" role="button"> Locations </a></p>
+              <p><a class="color text-dark" style="text-decoration: none" href="#" role="button"> Customer Service </a></p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+  
   </div>
 
   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>

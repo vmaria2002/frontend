@@ -30,12 +30,23 @@
   justify-content: end;
 }
 
+.margin-top {
+  margin-top: 30px!important;
+}
 .slide1 {
   background-image: url(Imagini/Background1.png);
   background-color: #161616;
   width: 100%;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+img.img3-style {
+  width: 100%;
+}
+.style3 {
+  position: relative;
+  top: 100px;
 }
 
 .margin {
@@ -128,6 +139,15 @@
   align-items: center;
 }
 
+.style9.padding {
+  max-width: 850px;
+  background: #f5f5f5d4;
+  position: absolute;
+  top: 80px;
+  right: 0px;
+  
+
+padding: 32px 144px 32px 50px;}
 .marginebutton {
   padding-top: 110px;
   padding-bottom: 60px;
@@ -388,7 +408,12 @@ img.img-padding {
   font-size: 16.5px;
 }
 
-
+.re{
+  text-align: center;
+  font-size: 20px;
+  color: red;
+  margin-top: 30px; margin-right:0px;
+}
 
 
 .style9 .padding {
@@ -712,12 +737,21 @@ img {
 
   .style9 .padding {
     top: 120px;
+    right: -490px;
     padding: 40px 200px 40px 100px;
   }
 
   .color {
     font-size: 20px;
+    text-decoration: none !important;
+    color:black;
   }
+
+  .color:hover{
+    text-decoration: none !important;
+    color: black!important;
+  }
+
 
   .colortext {
     font-size: 18px !important;
@@ -746,6 +780,16 @@ img {
     font-size: 18px !important;
     margin-bottom: 100px !important;
     margin-top: 50px !important;
+  }
+
+
+  .style9.padding {
+    max-width: 850px;
+    background: #f5f5f5d4;
+    position: absolute;
+    top: 80px;
+    right: 0px;
+    padding: 30px 150px 30px 50px;
   }
 
   .text-struct1 {
@@ -944,6 +988,18 @@ img {
     margin-left: 0px;
     margin-right: 0px;
   }
+}
+
+@media(max-width:14422px){
+  .style9 .padding {
+    max-width: 850px;
+    background: #f5f5f5d4;
+    position: absolute;
+    top: 80px;
+    right: 0px!important;
+    padding: 34px 137px 30px 50px;
+}
+
 }
 
 @media (max-width: 1201px) {
