@@ -45,9 +45,9 @@ if (isset($_POST['submit'])) {
     $mail->Port = 587;
 
 
-    $mail->setFrom('maria.vasilache02@gmail.com');
+    $mail->setFrom('@gmail.com');
 
-    $mail->addAddress('maria.vasilache02@gmail.com');
+    $mail->addAddress('@gmail.com');
     $mail->addAddress($email);
 
     $mail->isHTML(true);
